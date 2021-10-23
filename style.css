@@ -1,0 +1,87 @@
+/*
+Theme Name: Bloome Cafe & Bakery
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: A plain-vanilla &amp; lightweight theme for Elementor page builder
+Tags: flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 2.4.1.1634866267
+Updated: 2021-10-21 21:31:07
+
+*/
+
+/* Custom header styles */
+
+::selection {
+    background: var(--e-global-color-secondary);
+}
+
+#site-header {
+    position: absolute;
+    top: 0;
+    width:100%;
+    z-index: 9999;
+    min-height: 130px;
+}
+
+#site-header .menu-primary-menu-container {
+    width: 100%;
+}
+
+#site-header #menu-primary-menu {
+    justify-content: space-around;
+}
+
+
+
+
+/* Custom footer styles */
+
+footer#site-footer {
+    font-size: 15px;
+    line-height: 1.4;
+    padding: 10px 20px;
+}
+
+footer#site-footer .footer-inner {
+    min-height: 100px;
+    align-items: center;
+}
+
+footer#site-footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer#site-footer .footer-center-info {
+    display: flex;
+}
+
+footer#site-footer .dash {
+    margin: 0 10px;
+}
+
+footer#site-footer .footer-contact-information {
+    display: flex;
+    align-content: center;
+}
+
+footer#site-footer .footer-instagram-icon {
+    font-size: 16px;
+    margin: 0 0 0 25px;
+}
+
+
+@media (max-width: 768px) {
+
+    footer#site-footer .site-branding {
+        margin: 20px auto;
+    }
+
+    footer#site-footer .footer-center-info,
+    footer#site-footer .footer-contact-information {
+        width: 100%;
+        justify-content: center;
+    }
+}
